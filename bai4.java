@@ -2,10 +2,12 @@ import java.util.Scanner;
 public class bai4 {
 public static void main(String[] args) {
 	Scanner sc = new Scanner (System.in);
-	int a;
+	int a,i;
 	System.out.println("nhập vào một số:");
-	for (a = 1; a<13; a++)
-		System.out.println("Tháng " +a);
+	a = sc.nextInt();
+	for (i = 1; i <= a; i++)
+	if (a==i)
+		System.out.println("Tháng " +i);
 }
 }
 		
